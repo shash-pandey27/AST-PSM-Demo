@@ -55,12 +55,12 @@ echo "
 
 
 echo "{
-	\"numPartitions\":\"2\"
-	\"retentionPeriod\":\"24\"
-	\"systemName\":\"$SERVICE_NAME\"
-	\"serviceName\":\"$TOPIC_NAME\"
-	\"serviceLevel\":\"PAAS\"
-	\"serviceVersion\":\"0.10\"
+	\"numPartitions\":\"2\",
+	\"retentionPeriod\":\"24\",
+	\"systemName\":\"$SERVICE_NAME\",
+	\"serviceName\":\"$TOPIC_NAME\",
+	\"serviceLevel\":\"PAAS\",
+	\"serviceVersion\":\"0.10\",
 }" > EH-Template.json
 
 
