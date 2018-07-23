@@ -1,9 +1,11 @@
 #sudo apt-get update
 #sudo yum install python3-pip
 
-sudo yum groupinstall "Development Tools"
-sudo yum install zlib-devel
+sudo yum -y groupinstall "Development Tools"
+sudo yum -y install zlib-devel
 
+mkdir installfiles
+cd installfiles
 wget https://www.python.org/ftp/python/3.6.5/Python-3.6.5.tar.xz
 xz -d Python-3.6.5.tar.xz
 tar -xvf Python-3.6.5.tar
@@ -15,6 +17,8 @@ make test
 sudo make install
 cd ..
 sudo pip install --upgrade pip
+cd ..
+
 
 echo "Enter your Cloud Account's Name"
 read accountname
