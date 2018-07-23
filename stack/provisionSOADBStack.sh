@@ -1,5 +1,4 @@
-cp ../variables.txt ./variables.txt
-source variables.txt
+source ../variables.txt
 export username password id region accountname
 
 
@@ -19,12 +18,12 @@ g++ main.cpp
 
 PUBLIC_KEY_TEXT=`cat id_rsa.pub | ./a.out`
 
-echo "\n\n\n Lets see if this works \n\n\n\n"
+printf "\n\n\n Lets see if this works \n\n\n\n"
 
 
 #echo $PUBLIC_KEY_TEXT
 
-psm stack create -t Oracle-SOACS-DBCS-Template -n $NAME_OF_STACK -p publicKeyText:"$PUBLIC_KEY_TEXT" serviceName:$NAME_OF_STACK commonPwd:$STACK_PASSWORD createBackupContainer:true backupStorageUser:$username backupStoragePassword:$password backupStorageContainer:"https://`echo $accountname`.`echo $region`.storage.oraclecloud.com/v1/Storage-`echo $accountname`/JaaS" dbBackupStorageContainer:"https://`echo $accountname`.`echo $region`.storage.oraclecloud.com/v1/Storage-`echo $accountname`/DBaaS"
+psm stack create -t Oracle-SOACS-DBCS-Template -n $NAME_OF_STACK -p publicKeyText:"$PUBLIC_KEY_TEXT" serviceName:$NAME_OF_STACK commonPwd:$STACK_PASSWORD createBackupContainer:true backupStorageUser:$username backupStoragePassword:$password backupStorageContainer:"https://${accountname}.${region}.storage.oraclecloud.com/v1/Storage-${accountname}/JaaS" dbBackupStorageContainer:"https://${accountname}.{$region}.storage.oraclecloud.com/v1/Storage-${accountname}/DBaaS"
 
 
 
