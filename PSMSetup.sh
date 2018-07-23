@@ -30,7 +30,7 @@ echo "Enter your Oracle Cloud Password: "
 read -s pass
 echo "Enter your ID Domain: "
 read id
-echo "Enter your region  (Valid values: us, emea, aucom)"
+echo "Enter your region (Valid values: us, emea, aucom)"
 read region
 
 sudo curl -X GET -u $user:$pass -H X-ID-TENANT-NAME:$id https://psm.us.oraclecloud.com/paas/core/api/v1.1/cli/$id/client -o psmcli.zip
