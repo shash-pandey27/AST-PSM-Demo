@@ -1,0 +1,5 @@
+accountname=paaspro
+username=spandey@astcorporation.com
+password=jakejakeKK15
+id=idcs-67f555d16eff4b7489dc13da65f5bf1d
+region=us

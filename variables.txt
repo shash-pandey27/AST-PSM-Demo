@@ -1,0 +1,5 @@
+accountname=shashwatast
+username=shashwatpandey27@gmail.com
+password=jakejakeKK15
+id=idcs-2e3fff42a9af497988a1c02a3734864e
+region=us

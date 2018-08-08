@@ -1,0 +1,180 @@
+  o accs
+       Oracle Application Container Cloud Service
+  o ADBC
+       Oracle Autonomous Database Cloud
+  o ADWC
+       Oracle Autonomous Data Warehouse Cloud
+  o ADWCP
+       Oracle Autonomous Data Warehouse Cloud Platform
+  o AIACS
+       Oracle Adaptive Intelligent Cloud Service AIACS
+  o AIPOD
+       Oracle Adaptive Intelligent Cloud Service POD
+  o ANALYTICS
+       Oracle Analytics Cloud
+  o ANDC
+       Oracle Autonomous NoSQL Database Cloud Service
+  o ANDCP
+       Oracle Autonomous NoSQL Database Cloud Pod
+  o APICatalog
+       Oracle API Catalog Service
+  o APICS
+       Oracle API Platform Cloud Service
+  o APICSAUTO
+       Oracle Autonomous API Platform Cloud Service
+  o APICSAUTOPOD
+       Oracle Autonomous API Platform Cloud Service Pod
+  o APISearch
+       Oracle APICatalog Elasticsearch Service
+  o AUTOANALYTICS
+       Oracle Autonomous Analytics Cloud
+  o AUTOBLOCKCHAIN
+       Oracle Autonomous Blockchain Cloud Service
+  o BCSCA
+       Oracle BCS CA
+  o BCSCBC
+       Oracle BCS Manager
+  o BCSCONSOLE
+       Oracle BCS Console
+  o BCSMGR
+       Oracle BCS Manager
+  o BDCSCE
+       Oracle Big Data Cloud
+  o BigDataAppliance
+       Oracle Big Data Cloud Service
+  o BOTMXP
+       Oracle Autonomous Mobile Cloud Bots Service Platform
+  o BotSaaSAuto
+       Oracle Digital Assistant
+  o BOTSCFG
+       Oracle Bots Configuration Service
+  o BOTSCON
+       Oracle Bots Connector Service
+  o BOTSINT
+       Oracle Bots Intent Service
+  o BOTSMGM
+       Oracle Bots Management API Service
+  o BOTSPIP
+       Oracle Bots Pipeline Service
+  o BOTSXP
+       Oracle Autonomous Digital Assistance Platform
+  o caching
+       Oracle Application Cache
+  o CEC
+       Oracle Content and Experience Cloud Suite
+  o CECAUTO
+       Oracle Autonomous Content and Experience Cloud Suite
+  o CECS
+       Oracle Content and Experience Cloud
+  o CECSAUTO
+       Oracle Autonomous Content and Experience Cloud
+  o CONTAINER
+       Oracle Container Cloud Service
+  o containerPod
+       Oracle Container Cluster Service
+  o ContainerRegistry
+       Oracle Container Registry Service
+  o CXAANA
+       Oracle CxA Analytics Service 
+  o CXACFG
+       Oracle CxA Configuration Service 
+  o CXACOL
+       Oracle CxA Collector Service 
+  o CXAPOD
+       Oracle CxA Pod Cloud Service 
+  o dbcs
+       Oracle Database Cloud Service
+  o DevServiceApp
+       Oracle Developer Cloud Service
+  o DevServiceAppAUTO
+       Oracle Developer Cloud Service
+  o DevServicePod
+       Oracle Developer Cloud Service POD
+  o DevServicePodAUTO
+       Oracle Developer Cloud Service POD
+  o DHCS
+       Oracle Data Hub Cloud Service
+  o dics
+       Oracle Data Integration Platform Cloud Service
+  o DIPCAUTO
+       Oracle Autonomous Data Integration Platform Cloud 
+  o ERP
+       Oracle Fusion Applications
+  o ggcs
+       Oracle GoldenGate Cloud Service
+  o INTEGRATIONCAUTO
+       Oracle Autonomous Integration Cloud
+  o IntegrationCloud
+       Oracle Integration Cloud
+  o IOTAssetMon
+       Oracle IoT Asset Monitoring Cloud Service
+  o IOTConnectedWrker
+       Oracle IoT Connected Worker Cloud Service
+  o IOTEnterpriseApps
+       Oracle Internet of Things Cloud - Enterprise
+  o IOTFleetMon
+       Oracle IoT Fleet Monitoring Cloud Service
+  o IOTProdMonitoring
+       Oracle IoT Production Monitoring Cloud Service
+  o IOTSvcAsset
+       Oracle IoT Asset Monitoring CX Cloud Service
+  o jcs
+       Oracle Java Cloud Service
+  o KMCS
+       Oracle Key Management Cloud Service
+  o KMCSP
+       Oracle Key Management Service POD
+  o MobileCCC
+       Oracle Mobile Custom Code Container
+  o MobileCccOm
+       Oracle Mobile Custom Code Container Oracle-managed
+  o MobileCorePOD
+       Oracle Mobile Core POD
+  o MobileCorePodOm
+       Oracle Mobile Core POD Oracle-managed
+  o MobileServiceAuto
+       Oracle Autonomous Mobile Cloud Enterprise
+  o MySQLCS
+       Oracle MySQL Cloud Service
+  o OAICS
+       Oracle Adaptive Intelligence Applications Offers Cloud Service
+  o OBCS
+       Oracle Blockchain Cloud Service
+  o OEHCS
+       Oracle Event Hub Cloud Service
+  o OEHPCS
+       Oracle Event Hub Cloud Service - Dedicated
+  o OICINST
+       Oracle Autonomous Integration Cloud
+  o OICPOD
+       Oracle Autonomous Integration Cloud
+  o OMCE
+       Oracle Mobile Cloud Metering Service
+  o OMCEXTERNAL
+       Oracle Management Cloud Service
+  o OMCP
+       Oracle Management Cloud Platform Service
+  o SOA
+       Oracle SOA Cloud Service
+  o SSI
+       Oracle Self-Service Integration Cloud Service
+  o SSIP
+       Oracle Self-Service Integration Platform
+  o stack
+       Oracle Cloud Stack Manager
+  o VisualBuilder
+       Oracle Visual Builder
+  o VISUALBUILDERAUTO
+       Oracle Autonomous Visual Builder
+  o wtss
+       Oracle Web Tier Security Service
+  o setup
+       Configure psm client options
+  o cleanup
+       Remove configured psm client options
+  o update
+       Update psm client to latest version
+  o log
+       View or update psm client log level
+  o help
+       Show help

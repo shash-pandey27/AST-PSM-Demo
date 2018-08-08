@@ -1,0 +1,8 @@
+{
+	"numPartitions":"2"
+	"retentionPeriod":"24"
+	"systemName":"TestCluster"
+	"serviceName":"TestTopic"
+	"serviceLevel":"PAAS"
+	"serviceVersion":"0.10"
+}
