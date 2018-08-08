@@ -1,23 +1,13 @@
 source ../variables.txt
 export username
 
+. ./EHvariables.txt
 ssh-keygen -f id_rsa -t rsa -N ''
 
 g++ main.cpp
 
 PUBLIC_KEY_TEXT=`cat id_rsa.pub | ./a.out`
 
-echo "Enter a username for the cluster (for access purposes)"
-read USER_NAME
-
-echo "Enter a password"
-read -s USER_PASSWORD
-
-echo "Enter a name for your cluster"
-read SERVICE_NAME
-
-echo "Enter a name for the topic"
-read TOPIC_NAME
 
 echo "
 {
@@ -52,6 +42,7 @@ echo "
 		}
 	}
 }" > EHD-Template.json
+
 
 
 echo "{
