@@ -12,4 +12,4 @@ export TF_VAR_compartment_ocid="ocid1.compartment.oc1..aaaaaaaaofg6ihfnzp7i5q7dz
 
 
 ### Bucket Information
-export TF_VAR_bucket_name="TerraformBucket"
+export TF_VAR_bucket_name="TerrBucket"

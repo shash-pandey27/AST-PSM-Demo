@@ -51,7 +51,7 @@ echo "{
 	\"systemName\":\"$SERVICE_NAME\",
 	\"serviceName\":\"$TOPIC_NAME\",
 	\"serviceLevel\":\"PAAS\",
-	\"serviceVersion\":\"0.10\",
+	\"serviceVersion\":\"0.10\"
 }" > EH-Template.json
 
 
