@@ -1,5 +1,5 @@
-accountname=shashwatast
-username=shashwatpandey27@gmail.com
-password=jakejakeKK15
-id=idcs-2e3fff42a9af497988a1c02a3734864e
+accountname=nowhealthgroup
+username=gprasad@astcorporation.com
+password=Welcome@1
+id=idcs-66c03c17a8c34ec88924b5661b03edef
 region=us

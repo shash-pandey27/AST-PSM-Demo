@@ -20,7 +20,7 @@ int main() {
 	char a[BUFFER_SIZE];
 	char b[BUFFER_SIZE];
 
-	readFile("var.txt", a);
+	readFile("stackVariables.txt", a);
 
 	int i = 0;
 	int j = 0;

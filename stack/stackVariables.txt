@@ -1,5 +1,6 @@
 serviceName:"StackTempTest"
 commonPwd:Amli_605
+
+backupStorageContainer:"https://uscom-central-1.storage.oraclecloud.com/v1/Storage-nowhealthgroup/DBaaS"
+dbBackupStorageContainer:"https://uscom-central-1.storage.oraclecloud.com/v1/Storage-nowhealthgroup/JaaS"
 createBackupContainer:true
-backupStorageContainer:https://shashwatast.us.storage.oraclecloud.com/v1/Storage-shashwatast/test01
-dbBackupStorageContainer:https://shashwatast.us.storage.oraclecloud.com/v1/Storage-shashwatast/test01
